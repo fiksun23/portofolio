@@ -1,0 +1,81 @@
+html, body, section {
+    position: relative;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+section {
+    padding: 80px;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 5px;
+}
+#collapsibleNavId .nav-item .nav-link {
+    font-weight: bold;
+}
+
+/* Profile */
+.rowProfile {
+    position: relative;
+}
+.image-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-me, .info-me {
+    margin-top: 100px;
+}
+.info-me .title {
+    color: teal;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.tableData tbody tr th, .tableData tbody tr td {
+    padding: 0px 5px 0px 5px;
+}
+.textInfo {
+    margin-top: 20px;
+}
+
+/* Experience */
+#experience {
+    background-color: black;
+}
+#experience .title {
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+.title-info {
+    color: white;
+    font-weight: bold;
+}
+.info-expercience .text {
+    color: white;
+}
+
+/* Services */
+#service h1 {
+    font-weight: bold;
+}
+table thead th img {
+    width: 100%;
+    height: 150px;
+}
+table tbody .title{
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    background-color: orange;
+}
+input[type] {
+    width: 500px;
+}
+textarea {
+    width: 500px !important;
+    height: 200px !important;
+}
